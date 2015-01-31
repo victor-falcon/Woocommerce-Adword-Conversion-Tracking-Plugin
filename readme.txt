@@ -15,6 +15,8 @@ Easily track your conversions from **Adwords** with these plugin for **Woocommer
 
 The plugin also send the **value of the order** to Adwords so you can see your earnings and spends in your Google Adwords Campaign.
 
+**If you find a bug or want to make an upgrade fill free to do it at [GitHub](https://github.com/Victoor/Woocommerce-Adword-Conversion-Tracking-Plugin)**
+
 **More info in the [plugin site](http://victorfalcon.es/wc-adwords-conversion-tracking/) (In spanish)**
 
 == Installation ==
