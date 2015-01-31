@@ -1,11 +1,11 @@
 <?php 
 /*
-Plugin Name: WC Adwords Conversion Tracking
+Plugin Name: Woocommerce Adwords Conversion Tracking
 Description: Add the Adwords tracking code to the Woocommerce Thank You page
 Plugin URI: http://victorfalcon.es/wc-adwords-conversion-tracking
 Author: Víctor Falcón
 Author URI: http://victorfalcon.es
-Version: 1.0
+Version: 1.0.1
 License: GPL2
 Text Domain: wact
 Domain Path: wact
