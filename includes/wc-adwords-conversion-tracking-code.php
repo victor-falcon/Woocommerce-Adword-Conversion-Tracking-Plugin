@@ -80,11 +80,11 @@ class WC_Adwords_Conversion_Tracking extends WC_Integration {
        
       ?>
       <div style="display:none">
-      <!-- Google Code for Pedido realizado Conversion Page -->
+      <!-- Google Code for Order complete (Pedido realizado) Conversion Page -->
       <script type="text/javascript">
       /* <![CDATA[ */
       var google_conversion_id = <?=$this->conversion_id?>;
-      var google_conversion_language = "es";
+      var google_conversion_language = "en"; /* es */
       var google_conversion_format = "3";
       var google_conversion_color = "ffffff";
       var google_conversion_label = "<?=$this->conversion_label?>";
