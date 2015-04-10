@@ -96,7 +96,7 @@ class WC_Adwords_Conversion_Tracking extends WC_Integration {
       </script>
       <noscript>
       <div style="display:inline;">
-      <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/<?=$this->conversion_id?>/?value=<?=$order->get_total()?>&amp;label=<?=$this->conversion_label?>&amp;guid=ON&amp;script=0"/>
+      <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/<?=$this->conversion_id?>/?value=<?=$order->get_total()?>&amp;currency_code=<?=$order->get_order_currency()?>&amp;label=<?=$this->conversion_label?>&amp;guid=ON&amp;script=0"/>
       </div>
       </noscript>
       </div>
