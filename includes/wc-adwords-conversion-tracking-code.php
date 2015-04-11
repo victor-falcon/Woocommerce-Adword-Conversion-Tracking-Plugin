@@ -80,11 +80,11 @@ class WC_Adwords_Conversion_Tracking extends WC_Integration {
        
       ?>
       <div style="display:none">
-      <!-- Google Code for Pedido realizado Conversion Page -->
+      <!-- Google Code for Order complete (Pedido realizado) Conversion Page -->
       <script type="text/javascript">
       /* <![CDATA[ */
       var google_conversion_id = <?=$this->conversion_id?>;
-      var google_conversion_language = "es";
+      var google_conversion_language = "en"; /* es */
       var google_conversion_format = "3";
       var google_conversion_color = "ffffff";
       var google_conversion_label = "<?=$this->conversion_label?>";
@@ -96,7 +96,7 @@ class WC_Adwords_Conversion_Tracking extends WC_Integration {
       </script>
       <noscript>
       <div style="display:inline;">
-      <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/<?=$this->conversion_id?>/?value=<?=$order->get_total()?>&amp;label=<?=$this->conversion_label?>&amp;guid=ON&amp;script=0"/>
+      <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/<?=$this->conversion_id?>/?value=<?=$order->get_total()?>&amp;currency_code=<?=$order->get_order_currency()?>&amp;label=<?=$this->conversion_label?>&amp;guid=ON&amp;script=0"/>
       </div>
       </noscript>
       </div>
