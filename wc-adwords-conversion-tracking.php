@@ -2,7 +2,7 @@
 /*
 Plugin Name: Woocommerce Adwords Conversion Tracking
 Description: Add the Adwords tracking code to the Woocommerce Thank You page
-Plugin URI: http://victorfalcon.es/wc-adwords-conversion-tracking
+Plugin URI: https://github.com/Victoor/Woocommerce-Adword-Conversion-Tracking-Plugin/
 Author: Víctor Falcón
 Author URI: http://victorfalcon.es
 Version: 1.0.1
